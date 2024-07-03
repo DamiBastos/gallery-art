@@ -15,3 +15,4 @@ Primero, necesitas crear una base de datos llamada `art_gallery`. Puedes hacerlo
 
 ```sql
 CREATE DATABASE art_gallery;
+```
