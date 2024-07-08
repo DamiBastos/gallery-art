@@ -25,13 +25,15 @@ function renderObras(response) {
             <td>${obra.titulo}</td>
             <td>${obra.anio}</td>
             <td>${obra.descripcion}</td>
-            <td>
+            <td class="td-obras">
               <img src="../Imagenes/Obras de arte/Pinturas/${obra.img}" alt="${obra.titulo}" class="img-fluid" height="100px">
             </td>
-            <td>
+            <td class="td-container-buttons">
+            <div class="div-operaciones">
               <button onclick="delObra(${obra.id})">
                 <i class="bi bi-trash-fill"></i>
               </button>  
+              </div>
             </td>
         </tr>
         `;

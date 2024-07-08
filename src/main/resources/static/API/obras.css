@@ -1,3 +1,8 @@
+a{
+    text-decoration: none;
+    color: white;
+}
+
 body{
     background-color: rgb(241, 240, 238);
 }
@@ -5,4 +10,38 @@ body{
 .text-center{
     background-color: rgb(60, 59, 59);
     color: rgb(241, 240, 238);
+}
+
+.img-fluid{
+    height: 100px;
+    border-radius: 10px;
+}
+
+.img-fluid:hover{
+    height: 150px;
+    border-radius: 10px;
+}
+
+.td-obras{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.div-operaciones{
+    padding: 2rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-operaciones button{
+    border-radius: 100%;
+}
+
+.div-operaciones button:hover{
+    color: red;
+    border: 1px solid red
 }
